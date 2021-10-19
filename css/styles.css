@@ -8,5 +8,8 @@
   font-weight: 500;
 }
 .margin-none{
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+}
+.ul{
+  text-decoration: underline;
 }

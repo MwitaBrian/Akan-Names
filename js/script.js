@@ -13,6 +13,15 @@ function displayAkanName(){
     //Convert year to string to get century
     var yearString = year.toString()
 
+    var CC = parseInt(yearString.slice(0,2))
+    var YY = parseInt(yearString.slice(2,4))
+    var MM = month
+    var DD = day
+
+    console.log(CC)
+    console.log(YY)
+
+
   //array for male Names
   var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
   //array for female Names

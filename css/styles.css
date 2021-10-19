@@ -1,6 +1,7 @@
 .container{
   margin-top: 25px;
   background-color: beige;
+  padding-top: 10px;
 }
 .heading{
   color: green;

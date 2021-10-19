@@ -1,10 +1,10 @@
 .container{
-  margin-top: 25px;
-  background-color: beige;
-  padding-top: 10px;
+  margin-top: 10px;
+  background-color: brown;
+  padding-top: 15px;
+  color: white;
 }
 .heading{
-  color: green;
   font-weight: 500;
 }
 .margin-none{

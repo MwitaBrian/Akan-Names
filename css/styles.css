@@ -1,3 +1,10 @@
 .container{
   margin-top: 25px;
 }
+.heading{
+  color: green;
+  font-weight: 500;
+}
+.margin-none{
+  margin-bottom: 5px;
+}

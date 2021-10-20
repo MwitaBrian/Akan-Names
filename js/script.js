@@ -7,14 +7,15 @@ function displayAkanName(){
   var day = dateEntered.getDate()
 
   //Get gender value
-  var gender = "female"
+  var gender = document.querySelector('input[name = "gender"]:checked').value;
+  console.log(gender)
 
   //Get the century and Year
     //Convert year to string
     var yearString = year.toString()
     //use Slice method then convert back to Integer
-    var CC = parseInt(yearString.slice(0,2))
-    var YY = parseInt(yearString.slice(2,4))
+    var CC = parseInt(yearString.slice(0,2));
+    var YY = parseInt(yearString.slice(2,4));
     var MM = month
     var DD = day
 
@@ -40,4 +41,4 @@ function displayAkanName(){
   else{
     console.log("Too bad choose a gender")
   }
-}
+} 

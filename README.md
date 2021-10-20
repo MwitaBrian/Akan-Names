@@ -20,15 +20,14 @@ JSFiddle or JavaScript Console
 
 ## Behaviour Driven Development
 
+
 1. Displays Form For Entering Date and Gender
    - INPUT: "User's Birthdate Entered"
    - INPUT: "User's Gender Entered"
    - OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
-2. Click the Submit button to see Akan name
+2. Click the button to see Akan name
 
-3. Displays a Message if Gender Not Chosen
-   - INPUT: "" 
-   - OUTPUT: "Too bad choose a gender" 
+ 
 
 ## Development
 
